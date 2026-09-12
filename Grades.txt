@@ -1,0 +1,24 @@
+---------------------
+HW #1
+
+1. 5/5
+2. 5/5
+3. 5/5
+4. 5/5 
+
+Total: 20/20
+---------------------
+Quiz #1
+
+10/10 (Not graded)
+---------------------
+HW #2
+
+1. 5/5
+2. 5/5
+3. 5/5 But see comments in PDF.
+4. 5/5 When lines overlap, I make one in back thicker. Also, I don't recommend
+       connected lines in this case. See discussion in pmf.py.
+Total: 20/20
+---------------------
+
