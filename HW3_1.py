@@ -41,6 +41,7 @@ x_values = np.arange(0, np.max(daily_flares) + 1)
 
 Ps = []
 
+# Could this be done without a loop? Or with pmf.py?
 for x in x_values:
     probability = np.sum(daily_flares == x) / days
     Ps.append(probability)
@@ -56,6 +57,7 @@ mean_daily = p * hours_per_day
 
 Pp = []
 
+# Try to do without a loop.
 for x in x_values:
     probability = (mean_daily ** x) * np.exp(-mean_daily) / math.factorial(x)
     Pp.append(probability)
