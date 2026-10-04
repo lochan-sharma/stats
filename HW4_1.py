@@ -12,7 +12,8 @@ n = 20
 # -------------------------------------------------
 
 tcrit = stats.t.ppf(1 - alpha/2, n - 1)
-
+print(tcrit)
+exit()
 margin1 = tcrit * s / math.sqrt(n)
 
 lower1 = xbar - margin1
