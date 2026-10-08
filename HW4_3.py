@@ -18,6 +18,7 @@ alpha = 0.05
 # Count how many confidence intervals contain mu
 trapped = 0
 
+# This outer loop is not needed; can use size=(n, N).
 for i in range(N):
 
     # Take a random sample

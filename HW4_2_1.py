@@ -18,3 +18,5 @@ upper = (df * s2) / chi_low
 
 print("95% confidence interval for variance:")
 print(lower, upper)
+
+# Copy output into code as per instructions.
