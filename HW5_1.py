@@ -37,6 +37,7 @@ print('\nQ2: calculated by hand equations')
 print('b0 =', b0, 'b1 =', b1)
 
 # Q3: SciPy library estimates
+# Note that linregress also returns the se for the slope, which can be used to check Devore's equations.
 res = linregress(x, y)
 print('\nQ3: SciPy linregress')
 print('b0 =', res.intercept, 'b1 =', res.slope)
