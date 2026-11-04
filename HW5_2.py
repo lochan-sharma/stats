@@ -29,6 +29,9 @@ def dft(y):
             b[i - 1] = 2 * np.sum(y * np.sin(angle)) / N
 
     # Eliminate tiny roundoff errors when an exact zero is expected.
+    # This is dangerous - if this function is used when small values are expected,
+    # it may incorrectly set them to zero. Better to do outside of function
+    # as needed.
     a[np.isclose(a, 0, atol=1e-12)] = 0.0
     b[np.isclose(b, 0, atol=1e-12)] = 0.0
     return a0, a, b
