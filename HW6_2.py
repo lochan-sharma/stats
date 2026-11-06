@@ -21,6 +21,9 @@ Syy = np.sum((y - y_bar)**2)
 Sxy = np.sum((x - x_bar)*(y - y_bar))
 r = Sxy / np.sqrt(Sxx*Syy)
 
+# You get a different P value than Devore. Why didn't you use his formulas?
+# Where do the following equations come from? He tested the null that rho = 0.5.
+
 # Student t test for H0: population correlation rho = 0, two-sided.
 nu = n - 2  # Greek nu (v): degrees of freedom
 t_stat = r * np.sqrt(nu / (1 - r**2))
