@@ -4,9 +4,9 @@ https://raw.githubusercontent.com/rweigel/stats/refs/heads/main/project/README.m
 
 ## Related Work
 
-Previous studies have examined the rise and decay times of solar flares. Swalwell et al. (2018) studied the durations of solar flares and discussed how their start, peak, and end times are determined. They found that differences in how flare times were recorded could significantly affect the reported durations. This is important for my project because accurate rise and decay times are necessary for reliable statistical analysis.
+Previous studies have examined the rise and decay times of solar flares. Swalwell et al. (2018) studied the durations of solar flares and discussed how their start, peak, and end times are determined. They found that differences in how flare times were recorded could significantly affect the reported durations. They also found that the reported average durations of X-class flares before May 1997 were about 2.5 times longer than those recorded after May 1997. This is important for my project because accurate rise and decay times are necessary for reliable statistical analysis.
 
-Bowen et al. (2013) also studied the relationship between rise and decay times. They found that the decay phase was generally longer than the rise phase in their sample and that the durations of the two phases were positively related. This is directly related to my project because I am comparing the average rise and decay times of solar flares observed in 2023.
+Bowen et al. (2013) also studied the relationship between rise and decay times. They found that the decay phase was generally longer than the rise phase in their sample and that the durations of the two phases were positively related. Their analysis showed that the rise phase accounted for about one-third of the total flare duration, while the decay phase accounted for about two-thirds. This is directly related to my project because I am comparing the average rise and decay times of solar flares observed in 2023.
 
 In my dataset, the mean rise time was 11.19 minutes, while the mean decay time was 10.24 minutes. This is different from the general trend reported by Bowen et al. Their findings provide a useful comparison for understanding whether the relationship between rise and decay times varies across different samples of solar flares.
 
