@@ -1,4 +1,5 @@
 #####Solar Flare Rise and Decay Results (1975–2023)
+
 Across the years, most flares had relatively short rise and decay times, while a few took much longer to rise or decay. This pattern suggests that both durations in minutes were right-skewed. The scatterplots also show that flares with longer rise times generally tended to have longer decay times, with considerable variation from flare to flare.
 
 I divided each flare’s rise and decay times by its total duration to compare the share of time spent in each. Decay generally accounted for a larger share in the earlier part of the record. In later years, the rise and decay fractions overlapped more and were often close to an even split, with the average rise fraction slightly higher. Using a one-sided paired Z-test for each of the 49 years, I found evidence that the mean rise fraction exceeded the mean decay fraction in 27 years at the 0.05 significance level. I failed to reject the null hypothesis in the remaining 22 years.
